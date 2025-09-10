@@ -1,5 +1,3 @@
-# config.py
-import os
-
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = "tu_token_aqui"
 PREFIX = "!"
+DB_FILE = "comandos/tienda.db"

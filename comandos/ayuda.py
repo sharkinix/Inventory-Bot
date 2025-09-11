@@ -16,7 +16,7 @@ def register(bot):
                 "1️⃣ `!additem <categoria> <nombre> <precio_compra> <precio_venta>` → Agrega o actualiza un producto\n"
                 "2️⃣ `!updateitem <categoria> <nombre> [precio_compra] [precio_venta]` → Modifica los precios\n"
                 "3️⃣ `!renameitem <nombre_actual> <nuevo_nombre>` → Cambia el nombre de un producto\n"
-                "4️⃣ `!removeitem <nombre>` → Elimina un producto"
+                "4️⃣ `!removeitem <categoria> <nombre>` → Elimina un producto"
             ),
             inline=False
         )
